@@ -18,6 +18,7 @@ A correlation matrix was produced to see whether the features correlate positive
 - Number of Instances: 4,898
 - Number of Features: 11 (fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol)
 - Target Variable: Quality (score between 0 and 10)
+- https://archive.ics.uci.edu/dataset/186/wine+quality
 
 # Model Performance
 The following models were evaluated on the dataset, and their performance metrics were recorded:
@@ -74,6 +75,10 @@ The feature importance analysis with XGBoost revealed that 'alcohol' is the most
 - Volatile Acidity: The second most important feature. Wine quality is lower when there are more Volatile Acids
 - Sulphates: Also plays a crucial role in determining wine quality.
 - Other features such as 'residual_sugar', 'free_sulfur_dioxide', and 'density' also contribute but to a lesser extent.
+
+![XGboost_feature_importance](https://github.com/user-attachments/assets/1c85ad3d-dfc4-4193-8a07-df26b48631bd)
+
+![corr](https://github.com/user-attachments/assets/89ee3879-31d6-4275-9285-44a0e69fce15)
 
 # Conclusion
 
